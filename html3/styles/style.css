@@ -1,0 +1,381 @@
+@font-face {
+  src: url("../fonts/Lato/Lato-Regular.ttf") format("truetype");
+  font-family: Lato;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url("../fonts/Lato/Lato-Bold.ttf") format("truetype");
+  font-family: Lato;
+  font-weight: bold;
+}
+
+@font-face {
+  src: url("../fonts/Lato/Lato-Light.ttf.ttf") format("truetype");
+  font-family: Lato;
+  font-weight: 600;
+}
+
+@font-face {
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-family: Roboto;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url("../fonts/Roboto/Roboto-Bold.ttf.ttf") format("truetype");
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.clear-li {
+  list-style-type: none;
+}
+
+.clear-ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #878786;
+}
+
+.link:hover {
+  color: #007AFF;
+}
+
+.form {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.input {
+  box-sizing: border-box;
+  height: 40px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 15px;
+  outline: none;
+  background: #fff;
+  border: 1px solid #E0E0E0;
+  border-radius: 3px;
+}
+
+.button {
+  box-sizing: border-box;
+  color: #757575;
+  margin: 0;
+  height: 40px;
+  border: 1px solid #757575;
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100px;
+}
+
+.button_color_blue {
+  background-color: #007AFF;
+  border: none;
+  color: #fff;
+}
+
+.label {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.004px;
+  line-height: 17px;
+  letter-spacing: 0.28008px;
+  margin: 0 0 9px 0;
+}
+
+.base__link {
+  text-decoration: underline;
+}
+
+.base__link:hover {
+  color: #878786;
+}
+
+.page {
+  margin: 0 auto;
+  font-family: 'Lato', 'Roboto', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 80px;
+}
+
+.logo {
+  width: 168px;
+  height: 22.7px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 43px;
+}
+
+.header__input {
+  width: 100%;
+}
+
+.header__button {
+  width: 75px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  border-radius: 0 3px 3px 0;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  width: 222px;
+}
+
+.icons {
+  width: 81px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 27px;
+}
+
+.header__image {
+  width: 27px;
+  height: 27px;
+}
+
+.header__sub {
+  background-color: #F4F4F4;
+  padding: 13px 80px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header__link {
+  color: #878786;
+  margin-right: 40px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.content {
+  box-sizing: border-box;
+  width: 970px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  padding-top: 40px;
+  padding-bottom: 64px;
+}
+
+.base {
+  border: 1px solid #C6C6C5;
+  border-radius: 3px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  margin: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.content__link {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.004px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.28008px;
+  margin-right: 70px;
+}
+
+.content__link:last-of-type {
+  margin-right: 0;
+}
+
+.name__form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.input_value_name {
+  width: 236px;
+}
+
+.input_value_title {
+  width: 100%;
+  color: #9B9B9A;
+}
+
+.base__subtitle {
+  text-transform: uppercase;
+  font-family: Lato;
+  font-style: bold;
+  font-size: 14.004px;
+  line-height: 17px;
+  color: #007AFF;
+  letter-spacing: 0.28008px;
+  margin: 49px 0 10px 0;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background: #C6C6C5;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.contacts {
+  box-sizing: border-box;
+  padding-top: 17px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 18px;
+  grid-row-gap: 30px;
+}
+
+.input_value_contact {
+  width: 298px;
+}
+
+.comment {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.004px;
+  line-height: 17px;
+  letter-spacing: 0.28008px;
+  color: #878786;
+}
+
+.base__bottom {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 10px 0 10px;
+}
+
+.button__submit {
+  width: 150px;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 970px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.footer__sibtitle {
+  margin: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1C1C1B;
+}
+
+.footer__links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__link {
+  margin-bottom: 20px;
+  color: #1C1C1B;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.footer__image {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+
+.footer__link:hover {
+  color: #1C1C1B;
+}
+
+.footer__line {
+  width: 89%;
+  opacity: 1;
+}
+
+.footer__sub {
+  display: flex;
+  box-sizing: border-box;
+  padding: 20px 0;
+}
+
+.footer__text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  color: #878786;
+  margin-right: 15px;
+}
