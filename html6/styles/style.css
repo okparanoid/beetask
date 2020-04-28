@@ -78,10 +78,6 @@ h1 {
   display: block;
 }
 
-.tabs input[type="checkbox"]:checked+label::before {
-  content: url('../images/Shape2.svg');
-}
-
 .tabs h2 {
   font-style: normal;
   font-weight: bold;
