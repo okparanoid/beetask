@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+}
+
 .page {
   margin: 0;
   padding: 0;
@@ -116,7 +120,9 @@
 }
 
 .title::after {
-  content: url("../image/line-right.png");
+  display: inline-block;
+  content: url("../image/line-left.png");
+  transform: scale(-1, 1);
   margin-left: 38px;
 }
 
@@ -132,7 +138,7 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 65%;
+  width: 936px;
   min-height: 130px;
   z-index: 2;
   margin-bottom: 50px;
@@ -267,11 +273,10 @@
   margin-right: 0;
 }
 
-.gor-line {
-  background-color: #000;
-  width: 45%;
-  height: 1px;
-  margin-top: 15px;
+.page3__text::before {
+  content: '___';
+  display: inline-block;
+  margin-bottom: 15px;
 }
 
 .footer {
