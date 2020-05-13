@@ -12,10 +12,10 @@
   <header class="header">
     <div class="header__main">
       <img src="images/logo.svg" class="logo" alt="">
-      <div class="form">
+      <form class="header__form">
         <input class="input header__input" placeholder="Search for Products" type="search">
         <button class="button header__button button_color_blue" type="submit">Search</button>
-      </div>
+      </form>
       <div class="login">
         <button class="button">Log in</button>
         <button class="button">Sing Up</button>
@@ -47,22 +47,23 @@
       <a href="" class="link content__link">Contact Info</a>
       <a href="" class="link content__link">Confirm Account</a>
     </nav>
-    <div class="base">
-      <p class="label">Name</p>
+    <form class="content-form">
       <div class="name__form">
-        <input type="text" class="input base__input" placeholder="Mr.">
-        <input type="text" class="input base__input input_value_name" placeholder="First Name">
-        <input type="text" class="input base__input input_value_name" placeholder="Middle Name">
-        <input type="text" class="input base__input input_value_name" placeholder="Last Name">
+        <p class="label">Name</p>
+        <input type="text" class="input content-form__input" placeholder="Mr.">
+        <input type="text" class="input content-form__input input_value_name" placeholder="First Name">
+        <input type="text" class="input content-form__input input_value_name" placeholder="Middle Name">
+        <input type="text" class="input content-form__input input_value_name" placeholder="Last Name">
       </div>
-      <p class="label">Title</p>
-      <input class="input base__input input_value_title" placeholder="eg. CEO, Owner, Manager, Designer, Merchandiser">
-      <h2 class="base__subtitle">Business mailing address</h2>
-      <div class="line"></div>
+      <div class="title__form">
+        <p class="label">Title</p>
+        <input class="input content-form__input input_value_title" placeholder="eg. CEO, Owner, Manager, Designer, Merchandiser">
+      </div>
+      <h2 class="content-form__subtitle">Business mailing address</h2>
       <div class="contacts">
         <div class="contacts__form">
           <p class="label">Street Address</p>
-          <input id="bla" type="text" class="input input_value_contact">
+          <input type="text" class="input input_value_contact">
         </div>
         <div class="contacts__form">
           <p class="label">Apt / Suite / Other</p>
@@ -86,12 +87,12 @@
           <p class="comment">To Validate your account please enter valid mobile Number to receive confirmation code</p>
         </div>
       </div>
-      <div class="base__bottom">
+      <div class="content-form__bottom">
         <button class="button">Go Back</button>
-        <p class="comment">By Submitting this application, you agree to the <a href="" class="link base__link">Buyer guidelines</a></p>
+        <p class="comment">By Submitting this application, you agree to the <a href="" class="link content-form__link">Buyer guidelines</a></p>
         <button class="button button__submit button_color_blue">Submit Application</button>
       </div>
-    </div>
+    </form>
   </section>
 
   <footer class="footer">
