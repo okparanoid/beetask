@@ -5,12 +5,12 @@
 
 body {
   font-family: 'Roboto', Arial, sans-serif;
-  max-width: 1440px;
   margin: 0 auto;
 }
 
 h1 {
-  margin: 60px 27.36% 30px 27.36%;
+  max-width: 639px;
+  margin: 60px auto 30px auto;
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
@@ -18,9 +18,11 @@ h1 {
 }
 
 .tabs {
-  margin: 0 27.36% 91px 27.36%;
+  max-width: 639px;
+  margin: 0 auto;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   max-width: 640px;
+  position: relative;
 }
 
 .tabs input[type="checkbox"] {
@@ -32,20 +34,26 @@ h1 {
   color: #000;
   font-style: normal;
   font-weight: normal;
-  padding-left: 18px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0 15px 35px;
   font-size: 13px;
   line-height: 15px;
   background-color: #F5F5F5;
   border: 1px solid #E8E8E8;
   cursor: pointer;
+  position: relative;
 }
 
 .tabs label::before {
-  content: url('../images/Shape.svg');
-  width: 6px;
-  margin-right: 9px;
+  content: '\00A0\00A0';
+  display: inline-block;
+  border-top: 1px solid rgba(0, 0, 0, 0.65);
+  border-right: 1px solid rgba(0, 0, 0, 0.65);
+  transform: rotate(45deg);
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 18px;
+  left: 18px;
 }
 
 .tabs>div {
@@ -79,7 +87,7 @@ h1 {
 }
 
 .tabs input[type="checkbox"]:checked+label::before {
-  content: url('../images/Shape2.svg');
+  transform: rotate(135deg);
 }
 
 .tabs h2 {
@@ -108,35 +116,11 @@ h1 {
 .tabs img {
   margin-top: 30px;
   width: 100%;
-  padding-left: 44px;
-  padding-right: 44px;
+  padding: 0 44px;
 }
 
 .tabs a {
   color: #0179FF;
-}
-
-@media screen and (max-width: 1024px) {
-  h1 {
-    font-size: 30px;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-
-  .tabs {
-    margin: 0 15% 91px 15%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 25px;
-    margin: 20px 10% 10px 10%;
-  }
-
-  .tabs {
-    margin: 0 10% 91px 10%;
-  }
 }
 
 @media screen and (max-width: 425px) {
@@ -145,9 +129,6 @@ h1 {
     margin: 10px 0;
     text-align: center;
   }
-
-  .tabs {
-    margin: 0;
-  }
 }
+
 
