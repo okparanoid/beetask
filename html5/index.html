@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Flex-task</title>
+</head>
+<body class="page">
+  <section class="sidebar">
+    <h1 class="title">Usability test plan Dashboard</h1>
+    <p class="text sidebar__text">The sercive/product that is going to be tested</p>
+    <div class="rectangle"></div>
+    <p class="text sidebar__text">Business requirements</p>
+    <div class="rectangle"></div>
+    <p class="text sidebar__text">User requirements</p>
+    <div class="rectangle"></div>
+    <p class="text sidebar__text">Location & dates of the tests</p>
+    <div class="rectangle"></div>
+  </section>
+
+  <section class="main">
+    <h2 class="main__title">Test Objectives</h2>
+    <div class="objectives">
+      <div class="objectives__block"><p class="main__text">Why are you doing this user testing? What are the benefits Any risks of not achieving this test?</p></div>
+      <div class="objectives__block"><p class="main__text">What are the goals of the usabilty test? What are the specific questions that will be answered? What hypothesis that will be tested?</p></div>
+    </div>
+    <h2 class="main__title">Test Preparation</h2>
+    <div class="preparation">
+      <div class="preparation__container">
+        <div class="preparation__blocks">
+          <div class="preparation__block">
+            <p class="text">Teams who are involved and what are their responsibilities?</p>
+          </div>
+          <div class="preparation__plan">
+            <p class="text">Test plan / procedure</p>
+            <p class="main__text">List the main steps of the test procedure</p>
+            <div class="preparation__steps">
+              <div class="preparation__step"><p class="main__text">1</p></div>
+              <div class="preparation__step"><p class="main__text">2</p></div>
+              <div class="preparation__step"><p class="main__text">3</p></div>
+              <div class="preparation__step"><p class="main__text">4</p></div>
+              <div class="preparation__step"><p class="main__text">5</p></div>
+              <div class="preparation__step"><p class="main__text">6</p></div>
+            </div>
+            <img src="images/Line.svg" class="img">
+          </div>
+        </div>
+        <div class="preparation__forms">
+          <p class="text">Review before the test (check if done)</p>
+          <div class="preparation__forms-container">
+            <div class="preparation__form">
+              <input id="1" class="checkbox" type="checkbox"><label for="1" class="text">Email Participants</label>
+              <p class="comment">If checked, write the date that was sent</p>
+              <span class="span-accent">Date:</span>
+            </div>
+            <div class="preparation__form">
+              <p class="text">Reminder participants about the tests</p>
+              <p class="comment">Write the number and dates of the reminders </br>If reminder was done, please check the box</p>
+              <input id="2" class="checkbox span-checkbox" type="checkbox"><label for="2" class="span-accent">Reminder #1  -  Date:</label>
+              <input id="3" class="checkbox span-checkbox" type="checkbox"><label for="3" class="span-accent">Reminder #1  -  Date:</label>
+            </div>
+            <div class="preparation__form">
+              <input id="4" class="checkbox" type="checkbox"><label for="4" class="text form__text">Ethical Approval prepared and sent</label>
+              <input id="5" class="checkbox" type="checkbox"><label for="5" class="text form__text">Recording consent form prepared for the test session</label>
+              <input id="6" class="checkbox" type="checkbox"><label for="6" class="text form__text">Usability testing checklist prepared for the test session</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="preparation__tasks">
+        <p class="text tasks__text">Test Tasks</p>
+        <p class="main__text">List the test tasks</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
