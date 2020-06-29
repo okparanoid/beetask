@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Events</title>
+</head>
+<body class="page">
+
+  <div class="container">
+    <div class="cat-container" id="cat1">
+      <img src="images/cat.png" class="cat-img"/>
+      <div class="cloud disable">
+        <p class="kek">КЕК</p>
+      </div>
+      <div class="cloud2 disable">
+        <p class="kek">КЕК</p>
+      </div>
+    </div>
+
+    <div class="cat-container" id="cat2">
+      <img src="images/cat4.png" class="cat-img"/>
+    </div>
+
+    <div class="cat-container" id="cat3">
+      <img src="images/cat3.png" class="cat-img"/>
+    </div>
+  </div>
+
+  <div class="settings">
+    <p class="settings__title">Размер котов:</p>
+    <div class="settings-container">
+      <div class="input-container">
+        <label class="label" for="cat1-size">Кот #1</label>
+        <input class="input" type="range" id="cat1-size" name="cat1-size" min="125" max="250" value="250">
+      </div>
+      <div class="input-container">
+        <label class="label" for="cat2-size">Кот #2</label>
+        <input class="input" type="range" id="cat2-size" name="cat2-size" min="125" max="250" value="250">
+      </div>
+      <div class="input-container">
+        <label class="label" for="cat3-size">Кот #3</label>
+        <input class="input" type="range" id="cat3-size" name="cat3-size" min="125" max="250" value="250">
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
